@@ -16,6 +16,9 @@ const CitySchema = new Schema({
   },
   countrycode: {
     type: String
+  },
+  population: {
+    type: Number
   }
 });
 

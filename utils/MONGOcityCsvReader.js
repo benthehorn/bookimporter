@@ -49,7 +49,7 @@ function readCitiesToObjects(fileLocation) {
             cityObject.name = line[0];
             cityObject.asciiname = line[1];
             cityObject.loc = [line[2], line[3]];
-            cityObject.countryCode = line[4];
+            cityObject.countrycode = line[4];
             cityObject.population = line[5];
             var city = new City(cityObject);
             city.save(function(err, city) {
